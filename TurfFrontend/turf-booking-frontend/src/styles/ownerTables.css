@@ -1,0 +1,77 @@
+.owner-page {
+  max-width: 1100px;
+}
+
+/* Form */
+.turf-form {
+  display: flex;
+  gap: 12px;
+  margin: 20px 0 30px;
+  flex-wrap: wrap;
+}
+
+.turf-form input {
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  min-width: 200px;
+  font-size: 14px;
+}
+
+.turf-form input:focus {
+  outline: none;
+  border-color: #2563eb;
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.15);
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #2563eb, #3b82f6);
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(135deg, #1d4ed8, #2563eb);
+}
+
+/* Table Card */
+.table-card {
+  background: white;
+  border-radius: 14px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+  overflow: hidden;
+}
+
+/* Styled Table */
+.styled-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14.5px;
+}
+
+.styled-table thead {
+  background: #0f172a;
+  color: white;
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 14px 16px;
+  text-align: left;
+}
+
+.styled-table tbody tr {
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.styled-table tbody tr:hover {
+  background: #f1f5f9;
+}
+
+.styled-table tbody tr:last-child {
+  border-bottom: none;
+}
